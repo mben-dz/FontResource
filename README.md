@@ -17,7 +17,7 @@ Learn how it works step-by-step by watching the full tutorial on YouTube:
 
 1. Install **Skia4Delphi** in your Delphi environment.
 2. Add your custom font files to the project as resources.
-3. Use `TSkTypefaceManager` to register and load your fonts:
+3. Use `TSkDefaultProviders` to register and load your fonts:
 
 ```pascal
 program CustomFont;
