@@ -1,0 +1,64 @@
+object MainView: TMainView
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 398
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object LytRoot: TLayout
+    Align = Contents
+    Size.Width = 398.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object LytTitleBar: TLayout
+      Align = MostTop
+      Size.Width = 398.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object LytTitle: TLayout
+        Align = MostBottom
+        Position.Y = 25.000000000000000000
+        Size.Width = 398.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+    end
+    object LytStatus: TLayout
+      Align = MostBottom
+      Position.Y = 430.000000000000000000
+      Size.Width = 398.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+    end
+    object LytClient: TLayout
+      Align = Client
+      Size.Width = 398.000000000000000000
+      Size.Height = 380.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      object LytTest: TLayout
+        Align = MostTop
+        Size.Width = 398.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Txt1: TText
+          Align = Client
+          Size.Width = 398.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          Text = #1607#1584#1575' '#1605#1579#1575#1604' '#1593#1606' '#1575#1604#1582#1591' '#1593#1585#1576#1610
+          TextSettings.Font.Family = 'Noto Sans Arabic SemiCondensed'
+          TextSettings.Font.Size = 22.000000000000000000
+        end
+      end
+    end
+  end
+end
