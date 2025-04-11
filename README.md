@@ -2,7 +2,10 @@
 
 This repository demonstrates how to embed custom fonts in Delphi Android applications using the [Skia4Delphi](https://skia4delphi.org/) library.
 
-With this approach, you can include `.ttf` or `.otf` font files directly into your Android package and use them throughout your app with clean, consistent rendering—no reliance on system fonts.
+With this approach, you can include `.ttf` or `.otf` font files directly into your Android package and use them throughout your app with clean, consistent rendering—no reliance on system fonts.  
+
+![Delphi How to Embed Fonts in Android](https://github.com/user-attachments/assets/b62f1d93-aba4-44ff-837b-896d1a6fe5f6)
+
 
 ## 📹 Watch the Video Tutorial
 
