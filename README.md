@@ -34,7 +34,7 @@ uses
 
 {$R *.res}
 
-function RegisterFontFromRCDATA(const aFontResName: string): string;
+procedure RegisterFontFromRCDATA(const aFontResName: string);
 var
   LStream: TResourceStream;
 begin
