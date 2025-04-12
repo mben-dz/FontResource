@@ -38,7 +38,7 @@ function RegisterFontFromRCDATA(const aFontResName: string): string;
 var
   LStream: TResourceStream;
 begin
-  LStream := TResourceStream.Create(HInstance, aFontResName, RT_RCDATA);;
+  LStream := TResourceStream.Create(HInstance, aFontResName, RT_RCDATA);
   try
     TSkDefaultProviders.RegisterTypeface(LStream);
   finally
